@@ -12,18 +12,28 @@
     "content3 content7 content7"
     "content3 conten8 content8"
     ;
-}
-title{
-    font-style: italic;
+    border: 1px solid black;
 }
 nav{
     background-color: white;
     grid-area: nav;
     align-items: center;
+    font-style: italic;
     
 }
 main{
     grid-area:main;
+    border: 1px solid black;
+}
+#content1{
+    border: 1px solid black;
+}
+
+#content2{
+    border: 1px solid black;
+}
+#content3{
+    border: 1px solid black;
 }
 #content4{
     background-color:yellow ;
@@ -47,4 +57,7 @@ main{
 }
 img{
     height: 200px;
+}
+body{
+    border: 6px;
 }
